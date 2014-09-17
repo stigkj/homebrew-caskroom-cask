@@ -10,4 +10,9 @@ cask 'stay' do
   license :commercial
 
   app 'Stay.app'
+
+  postflight do
+    # Don't ask to move the app bundle to /Applications
+    suppress_move_to_applications
+  end
 end
