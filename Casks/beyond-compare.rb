@@ -8,6 +8,8 @@ cask 'beyond-compare' do
   license :commercial
 
   app 'Beyond Compare.app'
+  binary 'Beyond Compare.app/Contents/MacOS/BCompare'
+  binary 'Beyond Compare.app/Contents/MacOS/bcomp'
 
   postflight do
     suppress_move_to_applications
