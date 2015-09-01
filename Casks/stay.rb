@@ -11,6 +11,8 @@ cask 'stay' do
 
   app 'Stay.app'
 
+  accessibility_access true
+
   postflight do
     # Don't ask to move the app bundle to /Applications
     suppress_move_to_applications

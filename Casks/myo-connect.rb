@@ -10,5 +10,7 @@ cask 'myo-connect' do
 
   app 'Myo Connect.app'
 
+  accessibility_access true
+
   zap delete: '~/Library/Preferences/com.thalmic.Myo Connect.plist'
 end
